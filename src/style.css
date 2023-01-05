@@ -18,9 +18,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 25px;
+}
+
+.symbol p {
+  margin-bottom: 0;
+  font-size: 80px;
 }
 
 .lower {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.lower p {
+  transform: rotate(-180deg);
+}
+
+.number {
+  text-align: center;
+  font-size: 90px;
+}
+
+.red {
+  color: red;
 }
